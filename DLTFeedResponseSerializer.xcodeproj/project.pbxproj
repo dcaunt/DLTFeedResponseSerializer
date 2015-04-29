@@ -10,6 +10,12 @@
 		BF2966731AF1119200436D3B /* DLTFeedResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = BF2966721AF1119200436D3B /* DLTFeedResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF2966791AF1119200436D3B /* DLTFeedResponseSerializer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF29666D1AF1119200436D3B /* DLTFeedResponseSerializer.framework */; };
 		BF2966801AF1119200436D3B /* DLTFeedResponseSerializerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF29667F1AF1119200436D3B /* DLTFeedResponseSerializerTests.m */; };
+		BF29668A1AF113B700436D3B /* DLTFeedResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2966891AF113B700436D3B /* DLTFeedResponseSerializer.m */; };
+		BF2966C21AF1164D00436D3B /* DLTFeedResponseSerializer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2966B71AF1164D00436D3B /* DLTFeedResponseSerializer.framework */; };
+		BF2966D11AF1167C00436D3B /* Dalton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2966D01AF1167C00436D3B /* Dalton.framework */; };
+		BF2967F91AF11AF600436D3B /* DLTFeedResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = BF2966721AF1119200436D3B /* DLTFeedResponseSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF2967FA1AF11B0100436D3B /* DLTFeedResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2966891AF113B700436D3B /* DLTFeedResponseSerializer.m */; };
+		BF2968331AF11B8000436D3B /* Dalton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2968321AF11B8000436D3B /* Dalton.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,15 +26,56 @@
 			remoteGlobalIDString = BF29666C1AF1119200436D3B;
 			remoteInfo = DLTFeedResponseSerializer;
 		};
+		BF2966C31AF1164D00436D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF2966641AF1119200436D3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2966B61AF1164D00436D3B;
+			remoteInfo = DLTFeedResponseSerializer;
+		};
+		BF2967F31AF119F500436D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF29678F1AF1192000436D3B /* DLTFeedResponseSerializerDependencies.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2967B21AF1196D00436D3B;
+			remoteInfo = "AFNetworking Mac";
+		};
+		BF2967F61AF119F500436D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF29678F1AF1192000436D3B /* DLTFeedResponseSerializerDependencies.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BF2967B31AF1196D00436D3B;
+			remoteInfo = "AFNetworking Mac";
+		};
+		BF29682C1AF11B7400436D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF29678F1AF1192000436D3B /* DLTFeedResponseSerializerDependencies.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2967FF1AF11B0D00436D3B;
+			remoteInfo = "AFNetworking iOS";
+		};
+		BF29682F1AF11B7400436D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF29678F1AF1192000436D3B /* DLTFeedResponseSerializerDependencies.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BF2968001AF11B0D00436D3B;
+			remoteInfo = "AFNetworking iOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BF29666D1AF1119200436D3B /* DLTFeedResponseSerializer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLTFeedResponseSerializer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2966711AF1119200436D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF2966721AF1119200436D3B /* DLTFeedResponseSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLTFeedResponseSerializer.h; sourceTree = "<group>"; };
-		BF2966781AF1119200436D3B /* DLTFeedResponseSerializerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLTFeedResponseSerializerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2966781AF1119200436D3B /* DLTFeedResponseSerializerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DLTFeedResponseSerializerTests.xctest; path = "DLTFeedResponseSerializer Mac Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF29667E1AF1119200436D3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF29667F1AF1119200436D3B /* DLTFeedResponseSerializerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLTFeedResponseSerializerTests.m; sourceTree = "<group>"; };
+		BF2966891AF113B700436D3B /* DLTFeedResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLTFeedResponseSerializer.m; sourceTree = "<group>"; };
+		BF2966B71AF1164D00436D3B /* DLTFeedResponseSerializer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLTFeedResponseSerializer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2966C11AF1164D00436D3B /* DLTFeedResponseSerializerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DLTFeedResponseSerializerTests.xctest; path = "DLTFeedResponseSerializer iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2966D01AF1167C00436D3B /* Dalton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Dalton.framework; path = Dalton/build/Debug/Dalton.framework; sourceTree = "<group>"; };
+		BF29678F1AF1192000436D3B /* DLTFeedResponseSerializerDependencies.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DLTFeedResponseSerializerDependencies.xcodeproj; path = DLTFeedResponseSerializerDependencies/DLTFeedResponseSerializerDependencies.xcodeproj; sourceTree = "<group>"; };
+		BF2968321AF11B8000436D3B /* Dalton.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Dalton.framework; path = "Dalton/build/Debug-iphoneos/Dalton.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2966D11AF1167C00436D3B /* Dalton.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +92,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF2966791AF1119200436D3B /* DLTFeedResponseSerializer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2966B31AF1164D00436D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2968331AF11B8000436D3B /* Dalton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2966BE1AF1164D00436D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2966C21AF1164D00436D3B /* DLTFeedResponseSerializer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +120,7 @@
 				BF29666F1AF1119200436D3B /* DLTFeedResponseSerializer */,
 				BF29667C1AF1119200436D3B /* DLTFeedResponseSerializerTests */,
 				BF29666E1AF1119200436D3B /* Products */,
+				BF2968341AF11B8E00436D3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +129,8 @@
 			children = (
 				BF29666D1AF1119200436D3B /* DLTFeedResponseSerializer.framework */,
 				BF2966781AF1119200436D3B /* DLTFeedResponseSerializerTests.xctest */,
+				BF2966B71AF1164D00436D3B /* DLTFeedResponseSerializer.framework */,
+				BF2966C11AF1164D00436D3B /* DLTFeedResponseSerializerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				BF2966721AF1119200436D3B /* DLTFeedResponseSerializer.h */,
+				BF2966891AF113B700436D3B /* DLTFeedResponseSerializer.m */,
 				BF2966701AF1119200436D3B /* Supporting Files */,
 			);
 			path = DLTFeedResponseSerializer;
@@ -102,6 +170,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BF2967901AF1192000436D3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF2968301AF11B7400436D3B /* AFNetworking.framework */,
+				BF2967F71AF119F500436D3B /* AFNetworking.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF2968341AF11B8E00436D3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF2968321AF11B8000436D3B /* Dalton.framework */,
+				BF2966D01AF1167C00436D3B /* Dalton.framework */,
+				BF29678F1AF1192000436D3B /* DLTFeedResponseSerializerDependencies.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -113,12 +200,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF2966B41AF1164D00436D3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2967F91AF11AF600436D3B /* DLTFeedResponseSerializer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BF29666C1AF1119200436D3B /* DLTFeedResponseSerializer */ = {
+		BF29666C1AF1119200436D3B /* DLTFeedResponseSerializer Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF2966831AF1119200436D3B /* Build configuration list for PBXNativeTarget "DLTFeedResponseSerializer" */;
+			buildConfigurationList = BF2966831AF1119200436D3B /* Build configuration list for PBXNativeTarget "DLTFeedResponseSerializer Mac" */;
 			buildPhases = (
 				BF2966681AF1119200436D3B /* Sources */,
 				BF2966691AF1119200436D3B /* Frameworks */,
@@ -128,15 +223,16 @@
 			buildRules = (
 			);
 			dependencies = (
+				BF2967F41AF119F500436D3B /* PBXTargetDependency */,
 			);
-			name = DLTFeedResponseSerializer;
+			name = "DLTFeedResponseSerializer Mac";
 			productName = DLTFeedResponseSerializer;
 			productReference = BF29666D1AF1119200436D3B /* DLTFeedResponseSerializer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BF2966771AF1119200436D3B /* DLTFeedResponseSerializerTests */ = {
+		BF2966771AF1119200436D3B /* DLTFeedResponseSerializer Mac Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF2966861AF1119200436D3B /* Build configuration list for PBXNativeTarget "DLTFeedResponseSerializerTests" */;
+			buildConfigurationList = BF2966861AF1119200436D3B /* Build configuration list for PBXNativeTarget "DLTFeedResponseSerializer Mac Tests" */;
 			buildPhases = (
 				BF2966741AF1119200436D3B /* Sources */,
 				BF2966751AF1119200436D3B /* Frameworks */,
@@ -147,9 +243,46 @@
 			dependencies = (
 				BF29667B1AF1119200436D3B /* PBXTargetDependency */,
 			);
-			name = DLTFeedResponseSerializerTests;
+			name = "DLTFeedResponseSerializer Mac Tests";
 			productName = DLTFeedResponseSerializerTests;
 			productReference = BF2966781AF1119200436D3B /* DLTFeedResponseSerializerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF2966B61AF1164D00436D3B /* DLTFeedResponseSerializer iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2966CA1AF1164D00436D3B /* Build configuration list for PBXNativeTarget "DLTFeedResponseSerializer iOS" */;
+			buildPhases = (
+				BF2966B21AF1164D00436D3B /* Sources */,
+				BF2966B31AF1164D00436D3B /* Frameworks */,
+				BF2966B41AF1164D00436D3B /* Headers */,
+				BF2966B51AF1164D00436D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF29682D1AF11B7400436D3B /* PBXTargetDependency */,
+			);
+			name = "DLTFeedResponseSerializer iOS";
+			productName = DLTFeedResponseSerializer;
+			productReference = BF2966B71AF1164D00436D3B /* DLTFeedResponseSerializer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF2966C01AF1164D00436D3B /* DLTFeedResponseSerializer iOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2966CD1AF1164D00436D3B /* Build configuration list for PBXNativeTarget "DLTFeedResponseSerializer iOS Tests" */;
+			buildPhases = (
+				BF2966BD1AF1164D00436D3B /* Sources */,
+				BF2966BE1AF1164D00436D3B /* Frameworks */,
+				BF2966BF1AF1164D00436D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF2966C41AF1164D00436D3B /* PBXTargetDependency */,
+			);
+			name = "DLTFeedResponseSerializer iOS Tests";
+			productName = DLTFeedResponseSerializerTests;
+			productReference = BF2966C11AF1164D00436D3B /* DLTFeedResponseSerializerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -167,6 +300,12 @@
 					BF2966771AF1119200436D3B = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
+					BF2966B61AF1164D00436D3B = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					BF2966C01AF1164D00436D3B = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
 				};
 			};
 			buildConfigurationList = BF2966671AF1119200436D3B /* Build configuration list for PBXProject "DLTFeedResponseSerializer" */;
@@ -179,13 +318,38 @@
 			mainGroup = BF2966631AF1119200436D3B;
 			productRefGroup = BF29666E1AF1119200436D3B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BF2967901AF1192000436D3B /* Products */;
+					ProjectRef = BF29678F1AF1192000436D3B /* DLTFeedResponseSerializerDependencies.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				BF29666C1AF1119200436D3B /* DLTFeedResponseSerializer */,
-				BF2966771AF1119200436D3B /* DLTFeedResponseSerializerTests */,
+				BF2966B61AF1164D00436D3B /* DLTFeedResponseSerializer iOS */,
+				BF2966C01AF1164D00436D3B /* DLTFeedResponseSerializer iOS Tests */,
+				BF29666C1AF1119200436D3B /* DLTFeedResponseSerializer Mac */,
+				BF2966771AF1119200436D3B /* DLTFeedResponseSerializer Mac Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BF2967F71AF119F500436D3B /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = BF2967F61AF119F500436D3B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BF2968301AF11B7400436D3B /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = BF29682F1AF11B7400436D3B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BF29666B1AF1119200436D3B /* Resources */ = {
@@ -202,6 +366,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF2966B51AF1164D00436D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2966BF1AF1164D00436D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -209,6 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF29668A1AF113B700436D3B /* DLTFeedResponseSerializer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,13 +399,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF2966B21AF1164D00436D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2967FA1AF11B0100436D3B /* DLTFeedResponseSerializer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF2966BD1AF1164D00436D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		BF29667B1AF1119200436D3B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF29666C1AF1119200436D3B /* DLTFeedResponseSerializer */;
+			target = BF29666C1AF1119200436D3B /* DLTFeedResponseSerializer Mac */;
 			targetProxy = BF29667A1AF1119200436D3B /* PBXContainerItemProxy */;
+		};
+		BF2966C41AF1164D00436D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF2966B61AF1164D00436D3B /* DLTFeedResponseSerializer iOS */;
+			targetProxy = BF2966C31AF1164D00436D3B /* PBXContainerItemProxy */;
+		};
+		BF2967F41AF119F500436D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AFNetworking Mac";
+			targetProxy = BF2967F31AF119F500436D3B /* PBXContainerItemProxy */;
+		};
+		BF29682D1AF11B7400436D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AFNetworking iOS";
+			targetProxy = BF29682C1AF11B7400436D3B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -322,11 +531,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = DLTFeedResponseSerializer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DLTFeedResponseSerializer;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -339,11 +549,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = DLTFeedResponseSerializer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DLTFeedResponseSerializer;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -380,6 +591,90 @@
 			};
 			name = Release;
 		};
+		BF2966CB1AF1164D00436D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DLTFeedResponseSerializer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = DLTFeedResponseSerializer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF2966CC1AF1164D00436D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = DLTFeedResponseSerializer/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = DLTFeedResponseSerializer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF2966CE1AF1164D00436D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DLTFeedResponseSerializerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF2966CF1AF1164D00436D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DLTFeedResponseSerializerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -392,21 +687,41 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF2966831AF1119200436D3B /* Build configuration list for PBXNativeTarget "DLTFeedResponseSerializer" */ = {
+		BF2966831AF1119200436D3B /* Build configuration list for PBXNativeTarget "DLTFeedResponseSerializer Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF2966841AF1119200436D3B /* Debug */,
 				BF2966851AF1119200436D3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		BF2966861AF1119200436D3B /* Build configuration list for PBXNativeTarget "DLTFeedResponseSerializerTests" */ = {
+		BF2966861AF1119200436D3B /* Build configuration list for PBXNativeTarget "DLTFeedResponseSerializer Mac Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF2966871AF1119200436D3B /* Debug */,
 				BF2966881AF1119200436D3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2966CA1AF1164D00436D3B /* Build configuration list for PBXNativeTarget "DLTFeedResponseSerializer iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2966CB1AF1164D00436D3B /* Debug */,
+				BF2966CC1AF1164D00436D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2966CD1AF1164D00436D3B /* Build configuration list for PBXNativeTarget "DLTFeedResponseSerializer iOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2966CE1AF1164D00436D3B /* Debug */,
+				BF2966CF1AF1164D00436D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

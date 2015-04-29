@@ -1,18 +1,19 @@
 //
-//  DLTFeedResponseSerializerTests.m
-//  DLTFeedResponseSerializerTests
+//  AFNetworking_iOSTests.m
+//  AFNetworking iOSTests
 //
 //  Created by David Caunt on 29/04/2015.
-//  Copyright (c) 2015 David Caunt. All rights reserved.
+//
 //
 
+#import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface DLTFeedResponseSerializerTests : XCTestCase
+@interface AFNetworking_iOSTests : XCTestCase
 
 @end
 
-@implementation DLTFeedResponseSerializerTests
+@implementation AFNetworking_iOSTests
 
 - (void)setUp {
     [super setUp];

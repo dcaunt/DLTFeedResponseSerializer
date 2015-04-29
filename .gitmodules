@@ -1,0 +1,6 @@
+[submodule "AFNetworking"]
+	path = AFNetworking
+	url = git@github.com:AFNetworking/AFNetworking.git
+[submodule "Dalton"]
+	path = Dalton
+	url = git@github.com:dcaunt/Dalton.git

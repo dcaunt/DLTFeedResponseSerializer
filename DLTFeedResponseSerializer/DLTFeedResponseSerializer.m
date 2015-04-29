@@ -1,4 +1,4 @@
-// DLTFeedResponseSerializer.h
+// DLTFeedResponseSerializer.m
 //
 // Copyright (c) 2015 David Caunt (http://davidcaunt.co.uk/)
 //
@@ -20,17 +20,33 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-//! Project version number for DLTFeedResponseSerializer.
-FOUNDATION_EXPORT double DLTFeedResponseSerializerVersionNumber;
+#import <Foundation/Foundation.h>
+#import "DLTFeedResponseSerializer.h"
 
-//! Project version string for DLTFeedResponseSerializer.
-FOUNDATION_EXPORT const unsigned char DLTFeedResponseSerializerVersionString[];
+@implementation DLTFeedResponseSerializer
 
-// In this header, you should import all the public headers of your framework using statements like #import <DLTFeedResponseSerializer/PublicHeader.h>
+- (instancetype)init {
+    self = [super init];
+    if (!self) {
+        return nil;
+    }
 
-#import <Dalton/Dalton.h>
-#import <AFNetworking/AFNetworking.h>
+    self.acceptableContentTypes = [[NSSet alloc] initWithObjects:@"application/xml", @"text/xml", nil];
 
-@interface DLTFeedResponseSerializer : AFHTTPResponseSerializer
+    return self;
+}
+
+#pragma mark - AFURLResponseSerialization
+
+- (id)responseObjectForResponse:(NSURLResponse *)response
+                           data:(NSData *)data
+                          error:(NSError *__autoreleasing *)error
+{
+    if (![self validateResponse:(NSHTTPURLResponse *)response data:data error:error]) {
+        return nil;
+    }
+
+    return [DLTFeed feedWithData:data error:error];
+}
 
 @end
