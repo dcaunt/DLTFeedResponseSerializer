@@ -5,6 +5,8 @@ git:
 # Use sed to replace the SSH URL with the public URL, then initialize submodules
 before_install:
     - sed -i '' 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+    - git submodule update --init
+    - sed -i '' 's/git@github.com:/https:\/\/github.com\//' Dalton/.gitmodules
     - git submodule update --init --recursive
 install:
     - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
